@@ -1,1 +1,13 @@
-
+<addon id="plugin.video.maccms" name="MACCMS MultiSource" version="1.2.0" provider-name="YourName">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.metadata">
+    <summary>MACCMS 多源视频插件</summary>
+    <description>支持添加多条 MACCMS API 地址</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+</addon>
