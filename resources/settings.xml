@@ -1,0 +1,6 @@
+<settings>
+    <category label="API 设置">
+        <setting id="api_urls" type="text" label="MACCMS API 地址（多条用分号分隔）"
+                 default="https://a.com/api.php/provide/vod;https://b.com/api.php/provide/vod"/>
+    </category>
+</settings>
